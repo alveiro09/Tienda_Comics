@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Tienda Comics</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="menuLogin">Login</string>
+    <string name="menuLogout">Logout</string>
+    <string name="menuVerComics">Ver Comics</string>
+    <string name="menuBuscar">Buscar</string>
+    <string name="menuCrearComic">Crear Comics</string>
+
+    <string name="menuCrearEmpleado">Crear Empleado</string>
+
+
+    <string name="edtNombre">Nombre</string>
+    <string name="edtApellido">Apellido</string>
+    <string name="edtCargo">Cargo</string>
+    <string name="edtClave">Clave</string>
+    <string name="edtConfirmarClave">Confirmar clave</string>
+    <string name="edtDescripcion">Descripciòn</string>
+    <string name="edtEdad">Edad</string>
+    <string name="btnAceptar">Aceptar</string>
+
+    <string name="txtNombreComic">Nombre Comic</string>
+    <string name="txtDescripcionComic">Descripción comic</string>
+    <string name="txtComentarioComic">Comentarios</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

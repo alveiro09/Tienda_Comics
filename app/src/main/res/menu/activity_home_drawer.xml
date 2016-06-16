@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/menuLogin"
+            android:title="@string/menuLogin" />
+        <item
+            android:id="@+id/menuCrearEmpleado"
+            android:title="@string/menuCrearEmpleado" />
+        <item
+            android:id="@+id/menuCrearComic"
+            android:title="@string/menuCrearComic" />
+        <item
+            android:id="@+id/menuVerComics"
+            android:title="@string/menuVerComics" />
+        <item
+            android:id="@+id/menuLogout"
+            android:title="@string/menuLogout" />
+    </group>
+
+</menu>

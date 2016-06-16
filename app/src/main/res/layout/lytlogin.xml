@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blanco"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/margenEstandar">
+
+        <TextView
+            android:id="@+id/txtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/edtNombre"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:id="@+id/edtNombre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtNombre"
+            android:text="@string/edtNombre" />
+
+
+        <TextView
+            android:id="@+id/txtClave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtNombre"
+            android:hint="@string/edtClave"
+            android:textSize="@dimen/activity_horizontal_margin" />
+
+        <EditText
+            android:id="@+id/edtClave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtClave"
+            android:text="@string/edtClave" />
+
+
+        <Button
+            android:id="@+id/btnAceptar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edtClave"
+            android:layout_centerHorizontal="true"
+            android:text="@string/btnAceptar" />
+    </RelativeLayout>
+</LinearLayout>

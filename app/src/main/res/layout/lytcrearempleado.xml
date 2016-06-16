@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/margenEstandar"
+    android:background="@color/azulClaro">
+
+    <TextView
+        android:id="@+id/txtTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margenEstandar"
+        android:hint="@string/menuCrearEmpleado"
+        android:textColor="@color/negro"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTitulo"
+        android:hint="@string/edtNombre"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtNombre"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/txtApellido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtTitulo"
+        android:hint="@string/edtApellido"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtApellido"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtApellido" />
+
+    <TextView
+        android:id="@+id/txtClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtNombre"
+        android:hint="@string/edtClave"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtClave"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtClave"
+        android:inputType="numberPassword" />
+
+    <TextView
+        android:id="@+id/txtCClave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtApellido"
+        android:hint="@string/edtConfirmarClave"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtCClave"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtCClave"
+        android:inputType="numberPassword" />
+
+    <TextView
+        android:id="@+id/txtCargo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtClave"
+        android:hint="@string/edtCargo"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtCargo"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtCargo" />
+
+    <TextView
+        android:id="@+id/txtEdad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/edtCClave"
+        android:hint="@string/edtEdad"
+        android:textSize="@dimen/activity_horizontal_margin" />
+
+    <EditText
+        android:id="@+id/edtEdad"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:inputType="number"
+        android:layout_below="@+id/txtEdad" />
+
+    <Button
+        android:id="@+id/btnAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edtCargo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnAceptar" />
+</RelativeLayout>
